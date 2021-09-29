@@ -1,1 +1,94 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T21:02:50.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" version="15.3.7" etag="5WkOFtC6nFz7v8vB-0fk" type="github"><diagram id="MmYk9Qq0GiDgn2hXS97A">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-29T21:53:35.630Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36 Edg/94.0.992.31" etag="U5jlR4NfVflQ10aGl0Wv" version="15.3.7" type="github">
+  <diagram id="MmYk9Qq0GiDgn2hXS97A" name="Page-1">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QFqoebROaKrnSxG_gXaw-1" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;glass=0;shadow=0;labelBackgroundColor=#FF3399;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="281" width="230" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-2" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#d5e8d4;strokeColor=default;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="281" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-24" value="" style="sketch=0;aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Service_Bus_Relay.svg;" vertex="1" parent="1">
+          <mxGeometry x="155.00000000000003" y="305" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-30" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;fillColor=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="120.00000000000003" y="442.5" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-33" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Event_Hub_Clusters.svg;strokeColor=#1A1A1A;fillColor=none;gradientColor=none;imageBackground=#D5E8D4;" vertex="1" parent="1">
+          <mxGeometry x="145.69" y="469" width="88.62" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="352" as="targetPoint" />
+            <mxPoint x="260" y="352" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="502" as="targetPoint" />
+            <mxPoint x="260" y="502" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.469;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QFqoebROaKrnSxG_gXaw-45" target="QFqoebROaKrnSxG_gXaw-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-45" value="&lt;font style=&quot;font-size: 15px&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Event hub kafka connector&lt;/b&gt;&lt;/font&gt;" style="shape=delay;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#1A1A1A;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="389" y="480" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-48" value="&lt;font style=&quot;font-size: 15px&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Service bus kafka connector&lt;/b&gt;&lt;/font&gt;" style="shape=delay;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;sketch=0;strokeColor=#1A1A1A;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="330" width="180" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-52" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Confluent Kafka&lt;/font&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;shadow=0;glass=0;labelBackgroundColor=#FF3399;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="389" y="620" width="192" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-58" value="" style="swimlane;startSize=0;rounded=1;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;sketch=0;strokeColor=default;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="900" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-69" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;consumer service&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;sketch=0;" vertex="1" parent="QFqoebROaKrnSxG_gXaw-58">
+          <mxGeometry x="50" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-59" value="" style="swimlane;startSize=0;rounded=1;shadow=0;glass=0;labelBackgroundColor=#FF3399;sketch=0;strokeColor=default;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="900" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-67" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;consumer service&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;sketch=0;" vertex="1" parent="QFqoebROaKrnSxG_gXaw-59">
+          <mxGeometry x="40" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-62" value="" style="swimlane;startSize=0;rounded=1;shadow=0;glass=0;labelBackgroundColor=#FF3399;sketch=0;strokeColor=default;fillColor=#FFFFFF;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="900" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-70" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;consumer service&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;sketch=0;" vertex="1" parent="QFqoebROaKrnSxG_gXaw-62">
+          <mxGeometry x="40" y="40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-75" value="" style="endArrow=classic;html=1;verticalAlign=bottom;entryX=0.617;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.13;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QFqoebROaKrnSxG_gXaw-52" target="QFqoebROaKrnSxG_gXaw-58">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="850" as="sourcePoint" />
+            <mxPoint x="430" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-76" value="" style="endArrow=classic;html=1;verticalAlign=bottom;exitX=0.13;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="469.92" y="812" as="sourcePoint" />
+            <mxPoint x="470" y="896" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-77" value="" style="endArrow=classic;html=1;verticalAlign=bottom;entryX=0.45;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.13;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="QFqoebROaKrnSxG_gXaw-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="524.9200000000001" y="812" as="sourcePoint" />
+            <mxPoint x="424.99999999999994" y="896.04" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-79" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;Service bus&lt;/font&gt;" style="rounded=1;arcSize=0;align=left;spacingLeft=5;strokeColor=#4C9AFF;html=1;strokeWidth=2;fontSize=12;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;sketch=0;fillColor=default;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="330" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-80" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;Event hub&lt;/font&gt;" style="rounded=1;arcSize=0;align=left;spacingLeft=5;strokeColor=#4C9AFF;html=1;strokeWidth=2;fontSize=12;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;sketch=0;fillColor=default;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="20" y="480" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QFqoebROaKrnSxG_gXaw-81" value="&lt;font style=&quot;font-size: 16px&quot; face=&quot;Comic Sans MS&quot;&gt;Confluent Kafka Connector&#39;s&amp;nbsp;&lt;/font&gt;" style="rounded=1;arcSize=0;align=left;spacingLeft=5;strokeColor=#4C9AFF;html=1;strokeWidth=2;fontSize=12;shadow=0;glass=0;labelBackgroundColor=#FFFFFF;sketch=0;fillColor=default;gradientColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="367.5" y="275" width="235" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
